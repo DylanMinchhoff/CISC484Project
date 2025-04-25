@@ -4,15 +4,15 @@
 Trends data - pytrend
 Price data - pyfinance
 
+https://www.kaggle.com/datasets/deepshah16/meme-cryptocurrency-historical-data
+https://www.kaggle.com/datasets/johnny1994/all-nft-rugpulls-and-scams
 
 
 ```
 /coin-data
     /coin(Name)
-        data.txt
-         | -- additional info (name of coin etc...)
-         | --  if scam or not (yes/no)
-         | -- has the scam happend /(what type of scam it is) data of scam?
+        data (csv)
+         | -- (Name of coin, scam?, type of scam?, date of scam?, date of data)
         Price data (csv)
         Trends Data (csv)
 
